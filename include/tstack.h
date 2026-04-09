@@ -43,4 +43,4 @@ public:
         top = -1;
     }
 };
-#endif
+#endif  // INCLUDE_TSTACK_H_
