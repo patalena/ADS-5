@@ -1,8 +1,8 @@
 // Copyright 2025 NNTU-CS
 #include <string>
 #include <map>
-#include "tstack.h"
 #include <cctype>
+#include "tstack.h"
 
 int getprior(char op) {
     if (op == '(') return 0;
