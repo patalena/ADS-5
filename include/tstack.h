@@ -7,6 +7,7 @@ class TStack {
  private:
     T arr[size] = {};
     int top = -1;
+
  public:
     TStack() {}
     bool empty() const {
