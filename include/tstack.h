@@ -4,10 +4,10 @@
 
 template<typename T, int size>
 class TStack {
-private:
+ private:
     T arr[size] = {};
     int top = -1;
-public:
+ public:
     TStack() {}
     bool empty() const {
         return top == -1;
